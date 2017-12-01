@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b431fc67-ed86-4f09-ade2-c57eee063d16" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/xml/desc.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/xml/dom_xml.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/xml/movies.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/xml/sax_xml.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/json/desc.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/json/dumps_test.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/json/loads_test.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tmp/data.json" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,134 +16,71 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/PythonSyntax$dom_xml.coverage" NAME="dom_xml Coverage Results" MODIFIED="1512120522594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xml" />
-    <SUITE FILE_PATH="coverage/PythonSyntax$except_test_1.coverage" NAME="except_test_1 Coverage Results" MODIFIED="1512024193975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/error&amp;exception" />
     <SUITE FILE_PATH="coverage/PythonSyntax$query_test.coverage" NAME="query_test Coverage Results" MODIFIED="1512108259051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/db" />
-    <SUITE FILE_PATH="coverage/PythonSyntax$sax_xml.coverage" NAME="sax_xml Coverage Results" MODIFIED="1512119897323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xml" />
     <SUITE FILE_PATH="coverage/PythonSyntax$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1512010402035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/filefunc" />
-    <SUITE FILE_PATH="coverage/PythonSyntax$_thread_test.coverage" NAME="_thread_test Coverage Results" MODIFIED="1512112475158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/threading" />
-    <SUITE FILE_PATH="coverage/PythonSyntax$cookie_get.coverage" NAME="cookie_get Coverage Results" MODIFIED="1512095205722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cgi" />
     <SUITE FILE_PATH="coverage/PythonSyntax$MyClass.coverage" NAME="MyClass Coverage Results" MODIFIED="1512025448281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oo" />
     <SUITE FILE_PATH="coverage/PythonSyntax$test.coverage" NAME="test Coverage Results" MODIFIED="1512032123517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/library" />
     <SUITE FILE_PATH="coverage/PythonSyntax$db_test.coverage" NAME="db_test Coverage Results" MODIFIED="1512107061354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/db" />
-    <SUITE FILE_PATH="coverage/PythonSyntax$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1512013798937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/filefunc" />
-    <SUITE FILE_PATH="coverage/PythonSyntax$update_test.coverage" NAME="update_test Coverage Results" MODIFIED="1512108246536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/db" />
     <SUITE FILE_PATH="coverage/PythonSyntax$queue_test.coverage" NAME="queue_test Coverage Results" MODIFIED="1512115911132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/threading" />
-    <SUITE FILE_PATH="coverage/PythonSyntax$extends.coverage" NAME="extends Coverage Results" MODIFIED="1512026770738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oo" />
     <SUITE FILE_PATH="coverage/PythonSyntax$Override.coverage" NAME="Override Coverage Results" MODIFIED="1512027019505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oo" />
     <SUITE FILE_PATH="coverage/PythonSyntax$access_test.coverage" NAME="access_test Coverage Results" MODIFIED="1512021265348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/os" />
     <SUITE FILE_PATH="coverage/PythonSyntax$property_func.coverage" NAME="property&amp;func Coverage Results" MODIFIED="1512027788577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oo" />
     <SUITE FILE_PATH="coverage/PythonSyntax$for.coverage" NAME="for Coverage Results" MODIFIED="1512093627189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loop" />
     <SUITE FILE_PATH="coverage/PythonSyntax$get_test.coverage" NAME="get_test Coverage Results" MODIFIED="1512093639984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cgi" />
     <SUITE FILE_PATH="coverage/PythonSyntax$People.coverage" NAME="People Coverage Results" MODIFIED="1512025865868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oo" />
-    <SUITE FILE_PATH="coverage/PythonSyntax$socket_server.coverage" NAME="socket_server Coverage Results" MODIFIED="1512111080233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network" />
     <SUITE FILE_PATH="coverage/PythonSyntax$threading_test.coverage" NAME="threading_test Coverage Results" MODIFIED="1512113281225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/threading" />
-    <SUITE FILE_PATH="coverage/PythonSyntax$insert_test.coverage" NAME="insert_test Coverage Results" MODIFIED="1512107561546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/db" />
     <SUITE FILE_PATH="coverage/PythonSyntax$server_client.coverage" NAME="server_client Coverage Results" MODIFIED="1512111094792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network" />
+    <SUITE FILE_PATH="coverage/PythonSyntax$dom_xml.coverage" NAME="dom_xml Coverage Results" MODIFIED="1512120522594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xml" />
+    <SUITE FILE_PATH="coverage/PythonSyntax$except_test_1.coverage" NAME="except_test_1 Coverage Results" MODIFIED="1512024193975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/error&amp;exception" />
+    <SUITE FILE_PATH="coverage/PythonSyntax$sax_xml.coverage" NAME="sax_xml Coverage Results" MODIFIED="1512119897323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xml" />
+    <SUITE FILE_PATH="coverage/PythonSyntax$_thread_test.coverage" NAME="_thread_test Coverage Results" MODIFIED="1512112475158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/threading" />
+    <SUITE FILE_PATH="coverage/PythonSyntax$cookie_get.coverage" NAME="cookie_get Coverage Results" MODIFIED="1512095205722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cgi" />
+    <SUITE FILE_PATH="coverage/PythonSyntax$dumps_test.coverage" NAME="dumps_test Coverage Results" MODIFIED="1512121053612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/json" />
+    <SUITE FILE_PATH="coverage/PythonSyntax$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1512013798937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/filefunc" />
+    <SUITE FILE_PATH="coverage/PythonSyntax$update_test.coverage" NAME="update_test Coverage Results" MODIFIED="1512108246536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/db" />
+    <SUITE FILE_PATH="coverage/PythonSyntax$extends.coverage" NAME="extends Coverage Results" MODIFIED="1512026770738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oo" />
+    <SUITE FILE_PATH="coverage/PythonSyntax$loads_test.coverage" NAME="loads_test Coverage Results" MODIFIED="1512121187861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/json" />
+    <SUITE FILE_PATH="coverage/PythonSyntax$desc.coverage" NAME="desc Coverage Results" MODIFIED="1512121515020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/json" />
+    <SUITE FILE_PATH="coverage/PythonSyntax$socket_server.coverage" NAME="socket_server Coverage Results" MODIFIED="1512111080233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network" />
+    <SUITE FILE_PATH="coverage/PythonSyntax$insert_test.coverage" NAME="insert_test Coverage Results" MODIFIED="1512107561546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/db" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Internet.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/network/Internet.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="11" column="3" lean-forward="false" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="desc.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/threading/desc.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_thread_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/threading/_thread_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="23" column="8" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
-              <folding>
-                <element signature="e#235#249#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="threading_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/threading/threading_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="43" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-              <folding>
-                <element signature="e#612#628#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="queue_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/threading/queue_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-526">
-              <caret line="45" column="18" lean-forward="false" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="18" />
-              <folding>
-                <element signature="e#604#616#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="desc.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xml/desc.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sax_xml.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xml/sax_xml.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="87" column="31" lean-forward="true" selection-start-line="87" selection-start-column="31" selection-end-line="87" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dom_xml.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/xml/dom_xml.py">
+      <file leaf-file-name="desc.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/json/desc.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="370">
-              <caret line="26" column="43" lean-forward="true" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+              <caret line="39" column="33" lean-forward="false" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="expatreader.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Software/Python/Python36/Lib/xml/sax/expatreader.py">
+      <file leaf-file-name="data.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tmp/data.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="216" column="0" lean-forward="false" selection-start-line="216" selection-start-column="0" selection-end-line="216" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="59" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="movies.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xml/movies.xml">
+      <file leaf-file-name="dumps_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/json/dumps_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="12" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loads_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/json/loads_test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="56">
-              <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+              <caret line="2" column="40" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -216,6 +153,9 @@
         <option value="$PROJECT_DIR$/xml/movies.xml" />
         <option value="$PROJECT_DIR$/xml/sax_xml.py" />
         <option value="$PROJECT_DIR$/xml/dom_xml.py" />
+        <option value="$PROJECT_DIR$/json/loads_test.py" />
+        <option value="$PROJECT_DIR$/json/dumps_test.py" />
+        <option value="$PROJECT_DIR$/json/desc.py" />
       </list>
     </option>
   </component>
@@ -276,12 +216,12 @@
             <path>
               <item name="PythonSyntax" type="b2602c69:ProjectViewProjectNode" />
               <item name="PythonSyntax" type="462c0819:PsiDirectoryNode" />
-              <item name="threading" type="462c0819:PsiDirectoryNode" />
+              <item name="json" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PythonSyntax" type="b2602c69:ProjectViewProjectNode" />
               <item name="PythonSyntax" type="462c0819:PsiDirectoryNode" />
-              <item name="xml" type="462c0819:PsiDirectoryNode" />
+              <item name="tmp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -316,21 +256,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.dom_xml">
-    <configuration name="_thread_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.desc">
+    <configuration name="desc" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/threading" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/json" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PythonSyntax" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/threading/_thread_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/json/desc.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -355,20 +295,39 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="queue_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="dumps_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/threading" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/json" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PythonSyntax" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/threading/queue_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/json/dumps_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="loads_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/json" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PythonSyntax" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/json/loads_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -393,39 +352,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="threading_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/threading" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PythonSyntax" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/threading/threading_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python._thread_test" />
-      <item index="1" class="java.lang.String" itemvalue="Python.threading_test" />
-      <item index="2" class="java.lang.String" itemvalue="Python.queue_test" />
-      <item index="3" class="java.lang.String" itemvalue="Python.sax_xml" />
-      <item index="4" class="java.lang.String" itemvalue="Python.dom_xml" />
+      <item index="0" class="java.lang.String" itemvalue="Python.sax_xml" />
+      <item index="1" class="java.lang.String" itemvalue="Python.dom_xml" />
+      <item index="2" class="java.lang.String" itemvalue="Python.dumps_test" />
+      <item index="3" class="java.lang.String" itemvalue="Python.loads_test" />
+      <item index="4" class="java.lang.String" itemvalue="Python.desc" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.dom_xml" />
-        <item index="1" class="java.lang.String" itemvalue="Python.sax_xml" />
-        <item index="2" class="java.lang.String" itemvalue="Python.queue_test" />
-        <item index="3" class="java.lang.String" itemvalue="Python.threading_test" />
-        <item index="4" class="java.lang.String" itemvalue="Python._thread_test" />
+        <item index="0" class="java.lang.String" itemvalue="Python.desc" />
+        <item index="1" class="java.lang.String" itemvalue="Python.loads_test" />
+        <item index="2" class="java.lang.String" itemvalue="Python.dumps_test" />
+        <item index="3" class="java.lang.String" itemvalue="Python.dom_xml" />
+        <item index="4" class="java.lang.String" itemvalue="Python.sax_xml" />
       </list>
     </recent_temporary>
   </component>
@@ -499,7 +439,14 @@
       <option name="project" value="LOCAL" />
       <updated>1512116166481</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="XML解析">
+      <created>1512120615548</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1512120615548</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -552,7 +499,8 @@
     <MESSAGE value="数据库操作（MySQL）" />
     <MESSAGE value="数据库操作（MySQL) 添加注释" />
     <MESSAGE value="把基本数据类型的例子放到datatype目录中&#10;网络编程&#10;线程" />
-    <option name="LAST_COMMIT_MESSAGE" value="把基本数据类型的例子放到datatype目录中&#10;网络编程&#10;线程" />
+    <MESSAGE value="XML解析" />
+    <option name="LAST_COMMIT_MESSAGE" value="XML解析" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -561,46 +509,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/error&amp;exception/custom_error.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/error&amp;exception/except_test_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="137" column="8" lean-forward="false" selection-start-line="137" selection-start-column="8" selection-end-line="137" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oo/MyClass.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="24" column="11" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oo/People.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oo/extends.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/oo/Override.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -898,7 +806,7 @@
         <state relative-caret-position="224">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
-            <element signature="e#39#52#0" expanded="true" />
+            <element signature="e#39#52#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -908,7 +816,7 @@
         <state relative-caret-position="476">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
-            <element signature="e#20#33#0" expanded="true" />
+            <element signature="e#20#33#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -934,7 +842,7 @@
         <state relative-caret-position="286">
           <caret line="23" column="8" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
           <folding>
-            <element signature="e#235#249#0" expanded="true" />
+            <element signature="e#235#249#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -944,7 +852,7 @@
         <state relative-caret-position="230">
           <caret line="43" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding>
-            <element signature="e#612#628#0" expanded="true" />
+            <element signature="e#612#628#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -954,7 +862,7 @@
         <state relative-caret-position="-526">
           <caret line="45" column="18" lean-forward="false" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="18" />
           <folding>
-            <element signature="e#604#616#0" expanded="true" />
+            <element signature="e#604#616#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -995,6 +903,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="370">
           <caret line="26" column="43" lean-forward="true" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/dumps_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="12" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/loads_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="40" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Software/Python/Python36/Lib/json/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-224">
+          <caret line="273" column="4" lean-forward="false" selection-start-line="273" selection-start-column="4" selection-end-line="273" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/desc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="39" column="33" lean-forward="false" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
           <folding />
         </state>
       </provider>
