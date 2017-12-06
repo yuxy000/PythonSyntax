@@ -1,3 +1,5 @@
+import os
+
 list1 = ['Google', 'Runoob', 1997, 2000]
 list2 = [1, 2, 3, 4, 5, 6, 7]
 print("list1[0]:", list1[0])
@@ -10,6 +12,12 @@ print("更新后的第三个元素是：", list1[2])
 # 删除元素
 del list1[2]
 print("删除第三个元素：", list1)
+# 删除list末尾的元素，用pop()方法
+list1.pop()
+print("删除zuihouyi个元素：", list1)
+# 要删除指定位置的元素，用pop(i)方法，其中i是索引位置
+list1.pop(0)
+print("删除第yi个元素：", list1)
 
 # list操作符
 print("len([1, 2, 3]) = ", len([1, 2, 3]))
@@ -41,6 +49,57 @@ print("list_seq:", list_seq)
 str1 = "Hello World"
 list_seq_2 = list(str1)
 print("列表元素list_seq_2 : ", list_seq_2)
+
+# Python内置的enumerate函数可以把一个list变成索引-元素对，这样就可以在for循环中同时迭代索引和元素本身
+for i, value in enumerate(['A', 'B', 'C']):
+    print(i, value)
+
+
+def findMinAndMax(L):
+    if len(L) == 0:
+        return None, None
+    elif len(L) == 1:
+        return L[0], L[0]
+    else:
+        min_value = max_value = L[0]
+        for value in L:
+            if max_value < value:
+                max_value = value
+            if min_value > value:
+                min_value = value
+        return min_value, max_value
+
+
+# 测试
+if findMinAndMax([]) != (None, None):
+    print('测试失败!')
+elif findMinAndMax([7]) != (7, 7):
+    print('测试失败!')
+elif findMinAndMax([7, 1]) != (1, 7):
+    print('测试失败!')
+elif findMinAndMax([7, 1, 3, 9, 5]) != (1, 9):
+    print('测试失败!')
+else:
+    print('测试成功!')
+
+# 列表生成式
+print([x ** 2 for x in range(1, 11)])
+print([x ** 2 for x in range(1, 11) if x % 2 == 0])
+print([x ** 2 for x in range(2, 11, 2)])
+print([m + n for m in 'ABC' for n in 'XYZ'])
+print([d for d in os.listdir('.')])  # os.listdir可以列出文件和目录
+
+# 列表生成式也可以使用两个变量来生成list
+d = {'x': 'A', 'y': 'B', 'z': 'C'}
+print(['%s = %s' % (key, value) for key, value in d.items()])
+
+L1 = ['Hello', 'World', 18, 'Apple', None]
+
+L2 = [s1.lower() for s1 in L1 if isinstance(s1, str)]
+print(L2)
+
+
+
 """
 list.append(obj)
     在列表末尾添加新的对象
@@ -65,4 +124,7 @@ list.append(obj)
 11	list.copy()
     复制列表
 """
+
+
+
 

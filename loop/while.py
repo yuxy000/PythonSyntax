@@ -21,7 +21,7 @@ print("Good bye!")
 无限循环在服务器上客户端的实时请求非常有用。
 """
 
-# while 循环使用 else 语句
+# while 循环使用 else 语句 在 while … else 在条件语句为 false 时执行 else 的语句块
 count = 0
 while count < 5:
    print(count, " 小于 5")

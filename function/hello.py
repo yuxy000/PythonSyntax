@@ -55,3 +55,20 @@ def change_me(mylist):
 mylist = [10, 20, 30]
 change_me(mylist)
 print("函数外取值: ", mylist)
+
+
+# 汉诺塔
+def move(disk, n, m):
+    print("把 %d 号圆盘从 %s 移动到 %s" % (0, disk, n, m))
+
+
+def hanoi(n, a, b, c):
+    if n == 1:
+        print("把 %d 号圆盘从 %s 移动到 %s" % (n, a, c))
+    else:
+        hanoi(n - 1, a, c, b)   # 递归，把A塔上编号1~n-1的圆盘移到B上，以C为辅助塔
+        print("把 %d 号圆盘从 %s 移动到 %s" % (n, a, c))       # 把A塔上编号为n的圆盘移到C上
+        hanoi(n - 1, b, a, c)   # 递归，把B塔上编号1~n-1的圆盘移到C上，以A为辅助塔
+
+
+hanoi(5, 'A', 'B', 'C')

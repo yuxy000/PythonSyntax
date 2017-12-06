@@ -10,6 +10,8 @@ d = {key1 : value1, key2 : value2 }
 dict = {'Name': 'Runoob', 'Age': 7, 'Class': 'First'}
 print("dict['Name']:", dict['Name'])
 print("dict['Age']:", dict['Age'])
+# dict.get(key, default) 如果key不存在，可以返回None，或者自己指定的value：
+print("dict.get('Name1')", dict.get("Name1", "未知"))
 
 # 修改字典
 dict1 = {'Name': 'Runoob', 'Age': 7, 'Class': 'First'}
@@ -21,6 +23,9 @@ print("dict1['School']: ", dict1['School'])
 # 删除字典元素
 dict2 = {'Name': 'Runoob', 'Age': 7, 'Class': 'First'}
 del dict2['Name']   # 删除键 'Name'
+# 要删除一个key，用pop(key)方法，对应的value也会从dict中删除
+print(dict2.pop("Age"))
+print(dict2)
 dict2.clear()   # 删除字典
 del dict2   # 删除字典
 
@@ -68,3 +73,34 @@ print("type(dict3):", type(dict3))
 12	popitem()
     随机返回并删除字典中的一对键和值(一般删除末尾对)。
 """
+
+# set
+"""
+set和dict类似，也是一组key的集合，但不存储value。由于key不能重复，所以，在set中，没有重复的key。
+set 无序和无重复元素的集合
+要创建一个set，需要提供一个list作为输入集合
+"""
+# 重复元素在set中自动被过滤
+s = set([1, 2, 3, 1, 2, 3])
+print(s)
+# 通过add(key)方法可以添加元素到set中，可以重复添加，但不会有效果
+s.add(4)
+print(s)
+# 通过remove(key)方法可以删除元素
+s.remove(2)
+print(s)
+
+s1 = set([1, 2, 3])
+s2 = set([2, 3, 4])
+# 交集
+print(s1 & s2)
+# 并集
+print(s1 | s2)
+
+"""
+set和dict的唯一区别仅在于没有存储对应的value，但是，set的原理和dict一样，
+所以，同样不可以放入可变对象，因为无法判断两个可变对象是否相等，也就无法保证set内部“不会有重复元素”。
+"""
+
+s3 = set([1, 2, [3, 4]])
+print(s3)

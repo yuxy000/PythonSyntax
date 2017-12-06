@@ -31,6 +31,7 @@ list1 = list(range(5))
 print(list1)
 
 # 循环语句可以有 else 子句，它在穷尽列表(以for循环)或条件变为 false (以while循环)导致循环终止时被执行,但循环被break终止时不执行。
+# break 语句可以跳出 for 和 while 的循环体。如果你从 for 或 while 循环中终止，任何对应的循环 else 块将不执行。
 for n in range(2, 10):
     for x in range(2, n):
         if n % x == 0:

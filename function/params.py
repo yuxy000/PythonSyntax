@@ -71,3 +71,35 @@ def print_info(arg1, *vartuple):
 
 print_info(10)
 print_info(70, 60, 50)
+
+
+def power(x, n):
+    s = 1
+    while n > 0:
+        n = n - 1
+        s = s * x
+    return s
+
+
+print(power(2, 5))
+
+
+def product(*args):
+    if len(args) == 0:
+        raise TypeError("请输入数字")
+
+    for i in args:
+        if not isinstance(i, (float, int)):
+            raise TypeError("输入的参数类型有误，请输入数字")
+
+    sum = 1
+    for n in args:
+        sum *= n
+    return sum
+
+
+print('product(5) =', product(5))
+print('product(5, 6) =', product(5, 6))
+print('product(5, 6, 7) =', product(5, 6, 7))
+print('product(5, 6, 7, 9) =', product(5, 6, 7, 9))
+print(product())
