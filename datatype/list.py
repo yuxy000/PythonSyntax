@@ -1,4 +1,5 @@
 import os
+import hashlib
 
 list1 = ['Google', 'Runoob', 1997, 2000]
 list2 = [1, 2, 3, 4, 5, 6, 7]
@@ -98,7 +99,14 @@ L1 = ['Hello', 'World', 18, 'Apple', None]
 L2 = [s1.lower() for s1 in L1 if isinstance(s1, str)]
 print(L2)
 
-
+signs = ['1513678086056', '335612']     # 1481110647  560687
+signs.sort()
+print(signs)
+signs12 = ''.join(signs)
+print(signs12)
+temp_signs = hashlib.sha1(signs12.encode('utf-8'))
+signs11 = temp_signs.hexdigest()
+print(signs11)
 
 """
 list.append(obj)

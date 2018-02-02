@@ -89,6 +89,41 @@ class Sample(Speaker, Student):
 t = Sample("Tim", 25, 45, 4, "Python")
 t.speak()   # 调用第一个父类的方法
 
+# 201802021530 继承和多态
 
-# 方法重写
 
+class Animal(object):
+    def run(self):
+        print('Animal is running...')
+
+
+class Dog(Animal):
+    def run(self):
+        print('Dog is running...')
+
+
+class Cat(Animal):
+    def run(self):
+        print('Cat is running...')
+
+
+class Tortoise(Animal):
+    def run(self):
+        print('Tortoise is running slowly...')
+
+
+dog = Dog()
+dog.run()
+cat = Cat()
+cat.run()
+
+
+def run_twice(animal):
+    animal.run()
+    animal.run()
+
+
+run_twice(Animal())
+run_twice(Dog())
+run_twice(Cat())
+run_twice(Tortoise())
